@@ -1,0 +1,4 @@
+-keep class ru.classrating.app.data.remote.** { *; }
+-keepattributes Signature, *Annotation*
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**
